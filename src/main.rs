@@ -110,7 +110,7 @@ struct ResponseResult<T> {
 const GITHUB_BASE_API: &str = "https://github.com";
 const GITHUB_TOKEN_API: &str = "/login/oauth/access_token";
 const GITHUB_USER_ME_API: &str = "https://api.github.com/user";
-const GITHUB_REDIRECT_URI: &str = "http://localhost:3000";
+const GITHUB_REDIRECT_URI: &str = "https://qescr-raaaa-aaaak-qbufa-cai.ic0.app";
 const GITHUB_CLIENT_ID: &str = "f2e94d951f9681739f57";
 const GITHUB_CLIENT_SECRET: &str = "31495fe947ff03fa4ebf7c71c242d21b4dffa6f3";
 
@@ -156,7 +156,7 @@ async fn github_user(user_auth: Json<UserAuth<'_>>) -> Json<ResponseResult<Strin
 const DISCORD_BASE_API: &str = "https://discord.com";
 const DISCORD_TOKEN_API: &str = "/api/v10/oauth2/token";
 const DISCORD_USER_ME_API: &str = "/api/v10/users/@me";
-const DISCORD_REDIRECT_URI: &str = "http://localhost:3000";
+const DISCORD_REDIRECT_URI: &str = "https://qescr-raaaa-aaaak-qbufa-cai.ic0.app";
 const DISCORD_CLIENT_ID: &str = "982876194980634686";
 const DISCORD_CLIENT_SECRET: &str = "VNWaLmQNT6RXcB0j-fnWEhymYtLEdmlr";
 
@@ -201,7 +201,7 @@ const TWITTER_BASE_API: &str = "https://api.twitter.com";
 const TWITTER_TOKEN_API: &str = "/2/oauth2/token";
 const TWITTER_USER_ME_API: &str = "/2/users/me";
 const TWITTER_USER_USERNAME_API: &str = "/2/users/by/username/";
-const TWITTER_REDIRECT_URI: &str = "http://localhost:3000";
+const TWITTER_REDIRECT_URI: &str = "https://qescr-raaaa-aaaak-qbufa-cai.ic0.app";
 const TWITTER_CLIENT_ID: &str = "dVJLSzBFeVBEVTh6blhXdjY2VUQ6MTpjaQ";
 const TWITTER_BEARER_TOKEN: &str = "Bearer AAAAAAAAAAAAAAAAAAAAAGt2cwEAAAAAeLCD9v62qm%2Fa84rdvX8cuPKnTow%3DGRAu59Gzg589E1rp39iXpmPTHbnwMv2zr0no8rZ6ezskBTA8WC";
 
